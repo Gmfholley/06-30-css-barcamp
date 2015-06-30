@@ -13,9 +13,16 @@ img {
 }
 
 header {
+  top: 0;
   background: #2C4A47; /* dark green - matches the background color to the color of the image */
+  position: fixed;
+  height: 45px;
+  width: 370px;
 }
 
+#primary {
+  margin-top: 45px;
+}
 #aiga {
   background: #536463; /* grey - matches the background color to the color of the image */
   padding-top: 7px;    /* grey should be a little sliver above and below the picture.  Ad padding */
@@ -60,6 +67,48 @@ p {
 #dashes .dash-container img {
   display: inline-block;
   width: 125%;
+}
+
+.straight-line {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.straight-line .dash-container {
+  display: inline-block;
+  overflow: hidden;
+  width: 10px;
+  height: 3px;
+}
+
+.straight-line .dash-container img {
+  display: inline-block;
+  width: 100%;
+}
+
+.talk-type {
+ color: #6C5029; 
+ line-height: 2em;
+ font-size: 16px;
+ font-family: Arial,sans-serif;
+ text-align: center;
+}
+
+.talk-type .space {
+  border-bottom: 2px #DDDDDD solid;
+}
+
+#talks-organized {
+  text-align: center;
+}
+
+.talk-type img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.talk-type ul {
+  list-style-type: none;
 }
 
 /*
