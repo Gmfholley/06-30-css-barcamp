@@ -1,0 +1,84 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 370px;   /* prevents site from expanding to the edge of the screen */
+  
+  font-family: "Rokkitt",Helvetica,Arial,sans-serif;
+  color: #6B797F;
+  
+}
+
+img {
+  display: block;   /* takes out spaces between images */
+}
+
+header {
+  background: #2C4A47; /* dark green - matches the background color to the color of the image */
+}
+
+#aiga {
+  background: #536463; /* grey - matches the background color to the color of the image */
+  padding-top: 7px;    /* grey should be a little sliver above and below the picture.  Ad padding */
+  padding-bottom: 7px;
+}
+
+#aiga img {
+  margin-left: auto;   /*margin left & right to auto centers a box element */
+  margin-right: auto;
+}
+
+.space {
+  padding: 50px;
+}
+
+h1 {
+  line-height: 40px;
+  font-size: 36px;
+}
+
+p {
+  line-height: 28px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#text {
+  padding: 20px;
+}
+
+/*
+Color
+===============================
+color: #6B797F
+color: rgb(107, 121, 127)
+background-color: transparent
+
+Font
+===============================
+font-family (stack): "Rokkitt",Helvetica,Arial,sans-serif
+Font being rendered: "Rokkitt"
+font-size: 20px
+
+Spacing
+===============================
+line-height: 1.4em (28px)
+vertical-align: baseline
+letter-spacing: normal
+word-spacing: 0px
+
+Decoration \ Transformation
+===============================
+font-weight: normal
+font-style: normal
+font-variant: normal
+text-transform: none
+text-decoration: none
+text-align: start
+text-indent: 0px
+
+Element Details
+===============================
+Element Type: <p>
+Element ID: Not Applicable
+Element Class: Not Applicable
+*/
