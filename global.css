@@ -34,16 +34,32 @@ header {
 h1 {
   line-height: 40px;
   font-size: 36px;
+  color: #384B62;
 }
 
 p {
   line-height: 28px;
   font-size: 20px;
-  padding: 20px;
 }
 
-#text {
-  padding: 20px;
+.text {
+  padding: 30px;
+}
+
+#dashes {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#dashes .dash-container {
+  display: inline-block;
+  overflow: hidden;
+  width: 20px;
+}
+
+#dashes .dash-container img {
+  display: inline-block;
+  width: 125%;
 }
 
 /*
