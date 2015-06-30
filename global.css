@@ -13,7 +13,7 @@ img {
 }
 
 header {
-  top: 0;
+  top: 0;  /* set the top to 0, the position to fixed, and the height to some px that matches the margin-top of the  div just below this to have a fixed header */
   background: #2C4A47; /* dark green - matches the background color to the color of the image */
   position: fixed;
   height: 45px;
@@ -21,7 +21,7 @@ header {
 }
 
 #primary {
-  margin-top: 45px;
+  margin-top: 45px; /*must match the height of the fixed header above*/
 }
 #aiga {
   background: #536463; /* grey - matches the background color to the color of the image */
@@ -109,6 +109,12 @@ p {
 
 .talk-type ul {
   list-style-type: none;
+}
+
+.talk-type h3 {
+  color: #6BA236;
+  font-size: 20px;
+  line-height: 1.45em;
 }
 
 /*
