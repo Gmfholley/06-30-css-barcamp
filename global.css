@@ -50,40 +50,23 @@ p {
 }
 
 .text {
-  padding: 30px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 0 auto;
 }
 
 #dashes {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#dashes .dash-container {
-  display: inline-block;
-  overflow: hidden;
-  width: 20px;
-}
-
-#dashes .dash-container img {
-  display: inline-block;
-  width: 125%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 10px;
+  background-image: url("./assets/part2/dash-horizontal.png");
+  background-repeat: repeat-x;
 }
 
 .straight-line {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.straight-line .dash-container {
-  display: inline-block;
-  overflow: hidden;
-  width: 10px;
-  height: 3px;
-}
-
-.straight-line .dash-container img {
-  display: inline-block;
-  width: 100%;
+  width: 90%;
 }
 
 .talk-type {
@@ -109,6 +92,8 @@ p {
 
 .talk-type ul {
   list-style-type: none;
+  margin: 0px auto;
+  padding: 0px;
 }
 
 .talk-type h3 {
@@ -225,4 +210,9 @@ p {
 
 #faq .space {
   padding: 10px;
+}
+
+#register img {
+  width: 100%;
+/*200 x 75 px*/
 }
